@@ -9,13 +9,15 @@ const extensions = [".js", ".ts", ".jsx", ".tsx"];
 
 export default {
   input: ["./src/index.ts"],
-  output: {
-    dir: "dist",
-    format: "esm",
-    preserveModules: true,
-    preserveModulesRoot: "src",
-    sourcemap: true,
-  },
+  output: [
+    {
+      dir: "dist",
+      format: "cjs",
+      preserveModules: true,
+      preserveModulesRoot: "src",
+      sourcemap: true,
+    },
+  ],
   plugins: [
     nodeResolve({
       browser: true,
@@ -32,5 +34,12 @@ export default {
       open: false,
     }),
   ],
-  external: ["react", "react-dom", "jest", "jest-cli", "react/jsx-runtime"],
+  external: [
+    "react",
+    "react-dom",
+    "react-dom/server",
+    "jest",
+    "jest-cli",
+    "react/jsx-runtime",
+  ],
 };

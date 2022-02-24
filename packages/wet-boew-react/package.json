@@ -9,6 +9,9 @@
   "license": "MIT",
   "private": false,
   "sideEffects": false,
+  "files": [
+    "dist/*"
+  ],
   "keywords": [
     "WET",
     "CDTS",

@@ -28,5 +28,7 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ]
+  ],
+
+  "eslint.workingDirectories": ["./examples/wbr-ssr"]
 }

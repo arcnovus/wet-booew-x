@@ -1,0 +1,13 @@
+{
+  "title": "Basic Settings",
+  "intro": "This sample page provides information to configure the basic items on your page.",
+  "dateModified": "Date modified",
+  "dateModifiedIntro": "The date modified is displayed near the bottom of the page, above the footer.",
+  "screenIdentifier": "Screen Identifier",
+  "screenIdentifierIntro": "The screen identifier is displayed near the bottom of the page, above the footer.",
+  "versionIdentifier": "Version Identifier",
+  "versionIdentifierIntro": "The version identifier is displayed near the bottom of the page, above the footer.",
+  "instructions": "It can be configured as a prop passed to the <code>DefaultTemplate</code> or <code>AppTemplate</code> component.",
+  "homeCrumbTitle": "Home",
+  "homeCrumbHref": "/en/home"
+}

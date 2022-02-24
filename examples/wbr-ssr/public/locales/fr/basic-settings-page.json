@@ -1,0 +1,13 @@
+{
+  "title": "Paramètres de base",
+  "intro": "Cet exemple de page fournit des informations pour configurer les éléments de base de votre page.",
+  "dateModified": "Date modifiée",
+  "dateModifiedIntro": "La date de modification est affichée en bas de la page, au-dessus du pied de page.",
+  "screenIdentifier": "Identifiant d'écran",
+  "screenIdentifierIntro": "L'identifiant d'écran s'affiche en bas de la page. Cet élément sert un identifiant unique pour votre page et peut être utilisé pour faciliter la communication entre les utilisateurs et le centre de services / l'équipe de support afin d'identifier l'emplacement exact d'un utilisateur dans votre application.",
+  "versionIdentifier": "Identifiant de version",
+  "versionIdentifierIntro": "L'identifiant de version est affiché en bas de la page, au-dessus du pied de page.",
+  "instructions": "Ceci peut être configuré en tant que «prop» passé au composant <code>DefaultTemplate</code> ou <code>AppTemplate</code>.",
+  "homeCrumbTitle": "Acceuil",
+  "homeCrumbHref": "/fr/home"
+}

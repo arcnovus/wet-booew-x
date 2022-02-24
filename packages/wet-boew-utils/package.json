@@ -8,6 +8,9 @@
   "author": "Bill Sourour (bill.sourour@arcnovus.com)",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist/*"
+  ],
   "keywords": [
     "WET",
     "CDTS",

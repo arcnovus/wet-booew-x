@@ -1,0 +1,14 @@
+{
+  "title": "Fil d'Ariane",
+  "intro": "Le fil d'Ariane est une liste de liens affichés près du haut du contenu pour aider l'utilisateur à déterminer où il se trouve sur le site et à l'aider à naviguer.",
+  "implementation": "Mise en oeuvre",
+  "implementationInto": "Breadcrumbs are added to the top section of the page. There are three configuration options:",
+  "hrefDescription": "the url of the link. If left empty, the item will be displayed in text and not as a hyperlink.",
+  "titleDescription": "the text of the link that is displayed.",
+  "acronymDescription": "if your title has an acronym, you can use this property to provide the full text of the title. It will be displayed when the user hovers over the link.",
+  "note": "<strong>Note:</strong> The <code>DefaultTemplate</code> inserts a link to the home page of the Canada.ca website.",
+  "homeCrumbTitle": "Acceuil",
+  "homeCrumbHref": "/en/home",
+  "cdtsCrumbTitle": "SDCG",
+  "cdtsCrumbHref": "https://www.canada.ca/en/index.html"
+}
